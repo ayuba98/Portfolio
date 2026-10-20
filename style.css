@@ -18,7 +18,7 @@ a:focus-visible { outline: 3px solid #8ab8c6; outline-offset: 4px; border-radius
 ::selection { color: var(--ink); background: #d8eaf0; }
 
 .page-shell { width: min(100% - 48px, 920px); margin-inline: auto; }
-.profile { display: grid; grid-template-columns: minmax(0, 1fr) 230px; align-items: center; gap: clamp(36px, 8vw, 92px); padding-block: clamp(54px, 10vw, 100px) 72px; border-bottom: 1px solid var(--line); }
+.profile { display: grid; grid-template-columns: minmax(0, 1fr) 258px; align-items: center; gap: clamp(36px, 8vw, 92px); padding-block: clamp(54px, 10vw, 100px) 72px; border-bottom: 1px solid var(--line); }
 .profile-copy { max-width: 620px; }
 .availability { display: inline-flex; align-items: center; gap: 9px; margin: 0 0 18px; padding: 5px 10px; border: 1px solid #d8e7df; border-radius: 999px; color: #3d6d54; background: #f6faf7; font-size: .76rem; font-weight: 600; }
 .availability span { width: 7px; height: 7px; border-radius: 50%; background: #57966e; }
@@ -31,7 +31,7 @@ h1, h2, h3 { line-height: 1.25; }
 .profile-links a, .project-links a { color: var(--accent-dark); font-size: .85rem; font-weight: 650; text-decoration: none; }
 .profile-links a:hover, .project-links a:hover, .site-footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .profile-links span, .project-links span { margin-left: 2px; color: var(--faint); }
-.profile-photo { display: block; width: 220px; aspect-ratio: 1; justify-self: end; border: 1px solid var(--line); border-radius: 50%; background: var(--soft); object-fit: cover; object-position: center 27%; }
+.profile-photo { display: block; width: 248px; aspect-ratio: 1; justify-self: end; border: 1px solid var(--line); border-radius: 50%; background: var(--soft); object-fit: cover; object-position: center 27%; }
 
 .details-grid { display: grid; grid-template-columns: 230px minmax(0, 1fr); align-items: start; gap: clamp(32px, 5vw, 58px); padding-block: 48px 55px; }
 .content-section { min-width: 0; }
@@ -71,7 +71,7 @@ h1, h2, h3 { line-height: 1.25; }
 @media (max-width: 650px) {
   .page-shell { width: min(100% - 36px, 520px); }
   .profile { grid-template-columns: 1fr; gap: 27px; padding-block: 43px 45px; }
-  .profile-photo { grid-row: 1; justify-self: start; width: 145px; }
+  .profile-photo { grid-row: 1; justify-self: start; width: 144px; }
   .profile-copy { grid-row: 2; }
   .profile h1 { font-size: clamp(2.55rem, 12vw, 3.5rem); }
   .role { font-size: 1.08rem; }
