@@ -3,88 +3,103 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ayub Musse — Full-stack JavaScript student interested in web development and problem solving." />
-    <meta name="theme-color" content="#f3f4ef" />
+    <meta name="description" content="Ayub Musse — Full-stack JavaScript student looking for a web development internship (LIA)." />
+    <meta name="theme-color" content="#ffffff" />
     <title>Ayub Musse | Full-stack JavaScript</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Ayub Musse, back to top">AM<span>.</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#profil">About</a>
-        <a href="#kompetenser">Skills</a>
-        <a href="#kontakt">Contact</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="hero" id="profil" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="availability-dot"></span> Seeking an internship (LIA)</p>
-          <h1 id="hero-title">Ayub Musse</h1>
-          <p class="hero-role">Full-stack JavaScript student</p>
-          <p class="hero-intro">
+    <main class="page-shell" id="top">
+      <section class="profile" aria-labelledby="profile-title">
+        <div class="profile-copy">
+          <p class="availability"><span aria-hidden="true"></span> Seeking a LIA internship</p>
+          <h1 id="profile-title">Ayub Musse</h1>
+          <p class="role">Full-stack JavaScript student</p>
+          <p class="intro">
             I’m studying Full-stack JavaScript at IT-Högskolan and looking for an internship
             where I can grow as a web developer and contribute to a team.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="mailto:ayubrashid.musse@iths.se">Email me</a>
-            <a class="button button-quiet" href="ayub-musse-cv-swedish.pdf" target="_blank" rel="noopener noreferrer">CV / Resume</a>
-            <a class="button button-quiet" href="https://github.com/ayuba98" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a class="button button-quiet" href="https://www.linkedin.com/in/ayub-m-522a8a17a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <div class="profile-links" aria-label="Contact and profile links">
+            <a href="mailto:ayubrashid.musse@iths.se">Email <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/ayuba98" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/ayub-m-522a8a17a" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="ayub-musse-cv-swedish.pdf" target="_blank" rel="noopener noreferrer">CV / Resume PDF <span aria-hidden="true">↗</span></a>
           </div>
         </div>
-        <div class="hero-photo-wrap">
-          <img class="hero-photo" src="ayub-musse.png" alt="Portrait of Ayub Musse" />
+        <img class="profile-photo" src="ayub-musse.png" alt="Portrait of Ayub Musse" />
+      </section>
+
+      <div class="details-grid">
+      <section class="content-section tech-section" aria-labelledby="tech-title">
+        <div class="section-heading">
+          <p class="section-kicker">WHAT I WORK WITH</p>
+          <h2 id="tech-title">Tech Stack</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3>Languages</h3>
+            <ul><li>HTML5</li><li>CSS3</li><li>JavaScript (ES6)</li></ul>
+          </article>
+          <article class="skill-group">
+            <h3>Front-End</h3>
+            <ul><li>DOM manipulation</li><li>Responsive design</li><li>Web accessibility</li></ul>
+          </article>
+          <article class="skill-group">
+            <h3>Tools</h3>
+            <ul><li>Git</li><li>GitHub</li><li>GitHub Pages</li></ul>
+          </article>
         </div>
       </section>
 
-      <section class="skills-section" id="kompetenser" aria-labelledby="skills-title">
-        <h2 id="skills-title">Tech Stack</h2>
-        <div class="skill-groups">
-          <section class="skill-group" aria-labelledby="languages-title">
-            <h3 id="languages-title">Languages</h3>
-            <ul class="skill-list">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript (ES6)</li>
-            </ul>
-          </section>
-          <section class="skill-group" aria-labelledby="frontend-title">
-            <h3 id="frontend-title">Front-End</h3>
-            <ul class="skill-list">
-              <li>DOM manipulation</li>
-              <li>Responsive design (Flexbox, Grid)</li>
-              <li>Web accessibility</li>
-            </ul>
-          </section>
-          <section class="skill-group" aria-labelledby="tools-title">
-            <h3 id="tools-title">Tools</h3>
-            <ul class="skill-list">
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>GitHub Pages</li>
-            </ul>
-          </section>
+      <section class="content-section projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">SELECTED WORK</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">01</div>
+            <div class="project-content">
+              <h3>MovieApp</h3>
+              <p>A movie catalogue built with JavaScript. Film cards are rendered from data, and each card has an interactive button that reveals more information.</p>
+              <ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <div class="project-links">
+                <a href="https://ayuba98.github.io/MovieApp/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ayuba98/MovieApp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">02</div>
+            <div class="project-content">
+              <h3>First Assignment</h3>
+              <p>A simple team presentation website with navigation, a welcome section and team cards. Built as an early project with HTML and CSS.</p>
+              <ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li></ul>
+              <div class="project-links">
+                <a href="https://ayuba98.github.io/firstassignment/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/ayuba98/firstassignment" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="contact-section" id="kontakt" aria-labelledby="contact-title">
-        <div class="contact-inner">
-          <h2 id="contact-title">Contact</h2>
-          <p>Get in touch about internship opportunities.</p>
-          <a class="button button-light" href="mailto:ayubrashid.musse@iths.se">Email Ayub</a>
-          <a class="contact-social" href="https://github.com/ayuba98" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="contact-social" href="https://www.linkedin.com/in/ayub-m-522a8a17a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>Get in touch about internship opportunities.</p>
+        <div class="contact-links">
+          <a href="mailto:ayubrashid.musse@iths.se">Email Ayub <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/ayuba98" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/ayub-m-522a8a17a" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </section>
+
+      <footer class="site-footer">
+        <a class="back-to-top" href="#top">Ayub Musse <span aria-hidden="true">↑</span></a>
+        <p>Uppsala, Sweden · <a href="mailto:ayubrashid.musse@iths.se">Get in touch</a></p>
+      </footer>
     </main>
-
-    <footer class="site-footer">
-      <a class="wordmark" href="#top" aria-label="Back to top">AM<span>.</span></a>
-      <p>Ayub Musse · Uppsala, Sweden</p>
-      <a href="mailto:ayubrashid.musse@iths.se">Send an email <span aria-hidden="true">↗</span></a>
-    </footer>
   </body>
 </html>
